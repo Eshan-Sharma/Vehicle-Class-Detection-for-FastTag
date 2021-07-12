@@ -15,12 +15,18 @@
         The NHAI has divided all the vehicles into seven different catergories. Based on different categories, different toll is charged. 
         The FastTag stores the information about the vehicle class. 
     </li>
+     <p align="center"  style="margin-top:5px;">
+  <img src="asset/img/output2.png" width="1000" title="categories">
+</p>
     <li>
         When the RFID scanner scans the FastTag at the toll plaza, it deducts the toll from the account as per the vehicle class stored in the FastTag.
     </li>
     <li>
-        So if a truck driver somehow uses a FastTag for a car, he/she will end up paying much less toll.
+        So if a truck driver somehow uses a FastTag with vehicle class Car, he/she will end up paying much less toll.
     </li>
+     <p align="center"  style="margin-top:5px;">
+  <img src="asset/img/pricelist.png" width="500" title="Price List">
+</p>
     <li>
         So this way many people were able to fraud the highway authority and saving their money. A toll price list for different vehicles is mentioned below.
     </li>
@@ -54,8 +60,17 @@
         The model file comprises of a 260 MB .pb file which shall be loaded into the memory for processing the images. The model took about 1-2 minutes to load on NVIDIA GTX 1650 GPU. The model gave predictions for images of normal size in about 2-4 seconds. 
     </li>
     <li>
-        This model is used to detect the vehicle category (i.e. bus, truck, car, etc) and count to number of axles in order to differentiate between different vehicle classes.
+        This model is used to detect the vehicle category (i.e. bus, truck, car, etc) and count to the number of axles in order to differentiate between different vehicle classes.
     </li>
     <li>Some outputs can be seen below - </li>
-
+    
+     <p align="center"  style="margin-top:5px;">
+  <img src="asset/img/output.png" width="1500" title="output">
+    </p>
+    
+     <p align="center"  style="margin-top:5px;">
+  <img src="asset/img/output2.png" width="1500" title="output">
+</p>
+    
+   
 </ul>

@@ -67,10 +67,10 @@
     </li>
     <li>Some outputs can be seen below - </li>
      <p align="center"  style="margin-top:5px;">
-  <img src="output.png" width="1500" height = "1000" title="output">
+  <img src="output.png" width="1500" height = "500" title="output">
     </p>
      <p align="center"  style="margin-top:5px;">
-  <img src="output2.png" width="1500" height = "700" title="output">
+  <img src="output2.png" width="1500" height = "500" title="output">
 </p>
 </ul>
 <br>
@@ -86,6 +86,6 @@
         Thus, an application like this can prove to be time-saving for the people thereby increasing efficiency by reducing the time taken stopping on the toll gates and removing it.
     </li>
     <li>
-        The model needs to be improved on some aspects, such as avoiding duplicate counting of axle, more accurate detection of vehicle catergory, time taken for detection, etc.
+        The model needs to be improved on some aspects, such as avoiding duplicate counting of axles, more accurate detection of vehicle category, time taken for detection, etc.
     </li>
 </ul>

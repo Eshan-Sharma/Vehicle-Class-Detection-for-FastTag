@@ -5,11 +5,9 @@
 <ul>
     <li>NHAI has started the implementation of FASTag compulsory for commercial and non-commercial vehicles.
          The main aim of the implementation behind the usage of RFID-based FASTag is to ensure the free movement of traffic without the need for stoppages at the toll gate.
-
     </li>
     <li>
         However, with the implementation of this technology, there are some people who have started to misuse the faults in the system. 
-
     </li>
     <li>
         The project aims to counter one of such problems by using machine learning based object recognition to classify the vehicle, then to compare the information on the RFID card to the vehicle class.

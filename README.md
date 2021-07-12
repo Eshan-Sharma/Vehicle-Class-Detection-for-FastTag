@@ -1,7 +1,7 @@
 # Vehicle-Class-Detection-for-FastTag
 <h2><b>Machine Leaning module to detect vehicle class to avoid FastTag frauds.</b></h2>
 <br>
-<h4><b>Problem Statement</b></h4>
+<h3><b>Problem Statement</b></h3>
 <ul>
     <li>NHAI has started the implementation of FASTag compulsory for commercial and non-commercial vehicles.
          The main aim of the implementation behind the usage of RFID-based FASTag is to ensure the free movement of traffic without the need for stoppages at the toll gate.
@@ -28,8 +28,8 @@
 </ul>
 
 <br>
-<br>
-<h4><b>Solution</b></h4>
+
+<h3><b>Solution</b></h3>
 <ul>
     <li>
         The very obvious solution for the problem is to appoint a toll operator at every toll booth who will verify that class mentioned on FastTag is same as that of the vehicle.
@@ -41,6 +41,6 @@
         So we came up with a machine learning soution for the detecting the vehicle class (based on axle count and vehicle category).
     </li>
 </ul>
+
 <br>
-<br>
-<h4><b>About The Code</b></h4>
+<h3><b>About The Code</b></h3>

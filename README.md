@@ -16,7 +16,7 @@
         The FastTag stores the information about the vehicle class. 
     </li>
      <p align="center"  style="margin-top:5px;">
-  <img src="output2.png" width="1000" title="categories">
+  <img src="categories.png" width="1000" title="categories">
 </p>
     <li>
         When the RFID scanner scans the FastTag at the toll plaza, it deducts the toll from the account as per the vehicle class stored in the FastTag.
@@ -69,7 +69,6 @@
      <p align="center"  style="margin-top:5px;">
   <img src="output.png" width="1500" title="output">
     </p>
-    
      <p align="center"  style="margin-top:5px;">
   <img src="output2.png" width="1500" title="output">
 </p>

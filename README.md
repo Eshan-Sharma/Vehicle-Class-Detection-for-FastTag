@@ -45,6 +45,9 @@
     <li>
         So we came up with a machine learning soution for the detecting the vehicle class (based on axle count and vehicle category).
     </li>
+    <li>
+        Then the software will compare the vehicle class stored on the FastTag with the output of the model. If they comes out to be different, a warning/alarm will be raised.
+    </li>
 </ul>
 
 <br>
@@ -63,7 +66,6 @@
         This model is used to detect the vehicle category (i.e. bus, truck, car, etc) and count to the number of axles in order to differentiate between different vehicle classes.
     </li>
     <li>Some outputs can be seen below - </li>
-    
      <p align="center"  style="margin-top:5px;">
   <img src="asset/img/output.png" width="1500" title="output">
     </p>
@@ -71,6 +73,20 @@
      <p align="center"  style="margin-top:5px;">
   <img src="asset/img/output2.png" width="1500" title="output">
 </p>
-    
-   
+</ul>
+<br>
+<h3><b>Future Scope</b></h3>
+<ul>
+    <li>
+        While making this project, ease of accessibility and user-friendliness were kept in mind so that the project can be implemented on the ground. 
+    </li>
+    <li>
+        Through thorough research, it was found that using the software-based approach for doing repetitive tasks decreases the burden from the system, and automating those increases efficiency. 
+    </li>
+    <li>
+        Thus, an application like this can prove to be time-saving for the people thereby increasing efficiency by reducing the time taken stopping on the toll gates and removing it.
+    </li>
+    <li>
+        The model needs to be improved on some aspects, such as avoiding duplicate counting of axle, more accurate detection of vehicle catergory, time taken for detection, etc.
+    </li>
 </ul>

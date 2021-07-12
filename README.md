@@ -67,10 +67,10 @@
     </li>
     <li>Some outputs can be seen below - </li>
      <p align="center"  style="margin-top:5px;">
-  <img src="output.png" width="1500" title="output">
+  <img src="output.png" width="1500" height = "1000" title="output">
     </p>
      <p align="center"  style="margin-top:5px;">
-  <img src="output2.png" width="1500" title="output">
+  <img src="output2.png" width="1500" height = "700" title="output">
 </p>
 </ul>
 <br>

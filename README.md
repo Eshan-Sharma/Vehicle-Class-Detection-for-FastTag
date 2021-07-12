@@ -1,6 +1,5 @@
 # Vehicle-Class-Detection-for-FastTag
 <h2><b>Machine Leaning module to detect vehicle class to avoid FastTag frauds.</b></h2>
-<br>
 <h3><b>Problem Statement</b></h3>
 <ul>
     <li>NHAI has started the implementation of FASTag compulsory for commercial and non-commercial vehicles.
@@ -44,3 +43,19 @@
 
 <br>
 <h3><b>About The Code</b></h3>
+<ul>
+    <li>
+        The project is based on FasterRCNN+InceptionResNet-V2 module. The model is taken from Tensorflow Hub which is a repository for hundreds of pre-trained models, Ref - <a href="https://tfhub.dev/google/faster_rcnn/openimages_v4/inception_resnet_v2/1">https://tfhub.dev/google/faster_rcnn/openimages_v4/inception_resnet_v2/1</a> <div class=""></div>
+    </li>
+    <li>
+        The model is based on Faster R-CNN concept and was trained on “Open Images V4 with ImageNet” dataset which contains of 1000 different classification labels.
+    </li>
+    <li>
+        The model file comprises of a 260 MB .pb file which shall be loaded into the memory for processing the images. The model took about 1-2 minutes to load on NVIDIA GTX 1650 GPU. The model gave predictions for images of normal size in about 2-4 seconds. 
+    </li>
+    <li>
+        This model is used to detect the vehicle category (i.e. bus, truck, car, etc) and count to number of axles in order to differentiate between different vehicle classes.
+    </li>
+    <li>Some outputs can be seen below - </li>
+
+</ul>
